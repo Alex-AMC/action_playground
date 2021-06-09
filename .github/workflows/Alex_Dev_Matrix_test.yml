@@ -25,9 +25,9 @@ jobs:
           architecture: x64
 
       - name: Install Dependecies
-          run: |
-            pip install -e .
-            pip install -r requirements.txt
+        run: |
+          pip install -e .
+          pip install -r requirements.txt
 
       - name: Test with unit test
         run: |
