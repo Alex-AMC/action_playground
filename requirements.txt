@@ -4,3 +4,5 @@ pandas
 pytest
 scipy
 seaborn
+pyvista
+mayavi
