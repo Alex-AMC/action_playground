@@ -23,6 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Dependencies 
         run: |
-          pip install -e .
-          pip install -r requirements.txt
+          $CONDA/bin/conda env update --file environmment.yml --name base
 
+      - name: Test with unit test
+          python -m unittest discover -v

@@ -1,9 +1,9 @@
-from unittest import TestCase
+import unittest
 
 import chickens
 
 
-class TestChickens(TestCase):
+class TestChickens(unittest.TestCase):
 
     def setUp(self) -> None:
         self.chicken = chickens.Chicken(name='Daisy', age=1)
@@ -17,3 +17,7 @@ class TestChickens(TestCase):
     def test_age_works(self):
         """ I can see the age"""
         self.assertEqual(self.chicken.age, 1)
+
+
+if __name__ == '__main__':
+    unittest.main()

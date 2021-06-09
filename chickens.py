@@ -21,3 +21,7 @@ class Chicken:
     def total_eggs_laid_per_age(self) -> float:
         """ How many total eggs has the chicken laid ?"""
         return self.total_eggs / self.age
+
+
+if __name__ == '__main__':
+    pass
