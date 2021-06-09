@@ -1,5 +1,7 @@
 # Action Playground
-[![Alex_dev_tests](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_dev_tests.yml/badge.svg?branch=Alex_Dev)](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_dev_tests.yml) 
+
+[![Tests on all OS](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_Dev_Matrix_test.yml/badge.svg?branch=Alex_Dev)](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_Dev_Matrix_test.yml)
+[![Tests with Conda](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_dev_tests.yml/badge.svg?branch=Alex_Dev)](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_dev_tests.yml)
 
 Objectives: (Stolen from Ben)
 - Run tests on MR to develop
