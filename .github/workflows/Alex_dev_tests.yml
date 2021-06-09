@@ -26,4 +26,5 @@ jobs:
           $CONDA/bin/conda env update --file environmment.yml --name base
 
       - name: Test with unit test
+        run: |
           python -m unittest discover -v
