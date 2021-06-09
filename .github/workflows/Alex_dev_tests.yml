@@ -27,4 +27,4 @@ jobs:
           pip install -r requirements.txt
       - name: Test with unit test
         run: |
-          python -m unittest discover -v
+          $CONDA/bin/python -m unittest discover -v
