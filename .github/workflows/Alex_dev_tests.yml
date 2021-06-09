@@ -23,7 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install Dependencies 
         run: |
-          $CONDA/bin/conda env update --file environmment.yml --name base
+          $CONDA/bin/conda env update --file environment.yml --name base
 
       - name: Test with unit test
         run: |
