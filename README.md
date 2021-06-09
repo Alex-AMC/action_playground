@@ -1,4 +1,5 @@
 # Action Playground
+[![Alex_dev_tests](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_dev_tests.yml/badge.svg?branch=Alex_Dev)](https://github.com/Alex-AMC/action_playground/actions/workflows/Alex_dev_tests.yml) 
 
 Objectives: (Stolen from Ben)
 - Run tests on MR to develop
