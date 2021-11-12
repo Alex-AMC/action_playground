@@ -25,6 +25,9 @@ jobs:
       - name: Run tests
         run: docker run -d --name dev_container python-docker
         
+      - name: Start container
+        run: docker start dev_container 
+        
       - name: run Test
         run: docker exec dev_container env
         
