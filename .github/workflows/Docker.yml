@@ -24,3 +24,7 @@ jobs:
         run: docker build --tag python-docker .
       - name: Run tests
         run: docker run python-docker
+        
+      - name: run Test
+        run: docker exec python-docker env
+        
