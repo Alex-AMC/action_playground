@@ -23,7 +23,7 @@ jobs:
       - name: Build Docker
         run: docker build --tag python-docker .
       - name: Run tests
-        run: docker run -d --name dev_container python-docker
+        run: docker run -d -t --name dev_container python-docker
         
       - name: Start container
         run: docker start dev_container 
