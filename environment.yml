@@ -1,0 +1,11 @@
+name: basic
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - matplotlib
+  - python=3.9
+  - pandas
+  - seaborn
+  - pytest
+prefix: C:\Users\MoldovanV3\anaconda3\envs\basic
